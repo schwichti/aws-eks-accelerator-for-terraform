@@ -55,7 +55,7 @@ module "aws_eks" {
 
   worker_create_security_group         = var.worker_create_security_group
   worker_additional_security_group_ids = var.worker_additional_security_group_ids
-  worker_additional_policies           = var.worker_additional_policies
+  workers_additional_policies          = var.workers_additional_policies
   cluster_log_retention_in_days        = var.cluster_log_retention_in_days
 
   # IRSA
