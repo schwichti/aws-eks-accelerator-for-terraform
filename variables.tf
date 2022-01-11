@@ -228,3 +228,9 @@ variable "platform_teams" {
   type        = any
   default     = {}
 }
+
+variable "workers_additional_policies" {
+  description = "Additional policies to be added to workers"
+  type        = list(string)
+  default     = []
+}
